@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/projects
+Content-Type: application/json
+
+{
+  "title": "Este es mi primer proyecto",
+  "description": "esta es una descripcion de prueba",
+  "image": ""
+}
+
+GET http://localhost:3001/api/projects
+
